@@ -11,7 +11,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 # Set Streamlit page configuration
 st.set_page_config(
     page_title='Teaching Materials Generator',
-    page_icon="logos/heig.png"
+    page_icon="logos/heig.png",
     layout='wide',
     initial_sidebar_state='collapsed'
 )
