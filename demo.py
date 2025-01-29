@@ -10,8 +10,8 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 
 # Set Streamlit page configuration
 st.set_page_config(
-    page_title='Godeby Teaching Materials Generator',
-    page_icon="logos/godeby_logo.png",
+    page_title='Teaching Materials Generator',
+    page_icon="logos/heig.png"
     layout='wide',
     initial_sidebar_state='collapsed'
 )
@@ -107,13 +107,13 @@ def session_state_set_generated_tts(string):
 
 
 # Create a title for the app
-st.title('GODEBY TEACHING MATERIALS GENERATOR')
+st.title('TEACHING MATERIALS GENERATOR')
 st.header('Vocabulary and dialogue for language learning', divider="red")
 
 default_theme = 'Write the theme of the vocabulary here'
 
 # Sidebar
-st.logo('logos/heig.png', icon_image = 'logos/godeby_logo.png')
+st.logo('logos/heig.png')
 st.sidebar.header('Settings', divider="red")
 
 # Prompt Options
