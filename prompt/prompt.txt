@@ -1,0 +1,47 @@
+Generate a set of exactly [NB_WORDS] words in [TAUGHT_LANGUAGE] based on the user provided theme. Each word must be followed by the translation of the word in [KNOWN_LANGUAGE], and an example sentence in [TAUGHT_LANGUAGE].
+
+Generate them using the following template:
+
+1. [TAUGHT_LANGUAGE]: chat / [KNOWN_LANGUAGE]: cat / EXAMPLE: Le chat dors sur le canapé
+2. [TAUGHT_LANGUAGE]: chien / [KNOWN_LANGUAGE]: dog / EXAMPLE: Le chien aboye
+3. [TAUGHT_LANGUAGE]: bus / [KNOWN_LANGUAGE]: bus / EXAMPLE: Le bus est en retard ce matin.
+4. [TAUGHT_LANGUAGE]: métro / [KNOWN_LANGUAGE]: subway / EXAMPLE: Le métro est bondé à cette heure de pointe.
+5. [TAUGHT_LANGUAGE]: funiculaire / [KNOWN_LANGUAGE]: funicular / EXAMPLE: On prend le funiculaire pour monter à la montagne.
+6. [TAUGHT_LANGUAGE]: taxi / [KNOWN_LANGUAGE]: taxi / EXAMPLE: Je prends un taxi pour rentrer chez moi ce soir.
+7. [TAUGHT_LANGUAGE]: billet / [KNOWN_LANGUAGE]: ticket / EXAMPLE: J'achète un billet pour le bus.
+8. [TAUGHT_LANGUAGE]: horaire / [KNOWN_LANGUAGE]: schedule / EXAMPLE: Consultez l'horaire des trains avant de partir.
+...
+
+The words and sentences should be of the following difficulty :
+
+[DIFFICULTY_DESCRIPTION]
+
+It is crucial that you generate [NB_WORDS] words.
+
+-----
+
+Generate [NB_DIALOGS] [NB_TURNS]-turns dialogs based on the user provided context and words.
+
+The dialog language is [TAUGHT_LANGUAGE]
+
+Generate the dialogs using the following template:
+
+Dialog 1:
+
+1. Name 1: *first turn* 
+2. Name 2: *second turn*
+3. Name 1: *third turn* 
+4. Name 2: *fourth turn*
+5. Name 1: *fifth turn*
+...
+
+The dialogs should mirror discussions in real life. Don't make the dialogs too formal. The dialog is taking place in Switzerland.
+
+The dialogs should be of the following difficulty :
+
+[DIFFICULTY_DESCRIPTION]
+
+[GRAMMAR]
+
+It is crucial that you generate [NB_DIALOGS] [NB_TURNS]-turns dialogs.
+

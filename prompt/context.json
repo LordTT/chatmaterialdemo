@@ -1,0 +1,50 @@
+[
+    {
+        "name": "meeting for the first time",
+        "description": "people meeting for the first time"
+    },
+    {
+        "name": "Shopping at the bakery",
+   	    "description": "A customer talking to the baker at the bakery"
+    },
+    {
+        "name": "With a doctor at the cabinet",
+        "description": "A patient talking to the doctor"
+    },
+    {
+        "name": "With a nurse at the hospital",
+        "description": "A patient talking to a nurse at the hospital"
+    },
+    {
+        "name": "Shopping at the shops",
+        "description": "A customer talking to a employee at the shops"
+    },
+    {
+        "name": "Two friends doing sports",
+        "description": "Two friends talking while practicing"
+    },
+    {
+        "name": "Two friends at the lake",
+        "description": "Two friends talking at the lake"
+    },
+    {
+        "name": "Two friends at the park",
+        "description": "Two friends talking at the park"
+    },
+    {
+        "name": "Shopping at the market",
+        "description": "A customer talking to a farmer at the market"
+    },
+    {
+        "name": "Shopping at the pet store",
+        "description": "A customer talking to a employee at the pet store"
+    },
+    {
+        "name": "Parent and child at home",
+        "description": "A parent talking to the child at home"
+    },
+    {   
+        "name": "custom",
+        "description": ""
+    }
+]

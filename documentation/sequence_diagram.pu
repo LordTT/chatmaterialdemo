@@ -1,0 +1,27 @@
+@startuml generate_material
+actor User
+activate User #LightBlue
+User -> "Streamlit" : vocabulary theme 
+activate Streamlit #LightPink
+"Streamlit" -> "OpenAI" : prompt LLM
+activate OpenAI #LightGreen
+"OpenAI" --> "Streamlit" : LLM response
+deactivate OpenAI
+"Streamlit" --> User : generated vocabulary
+User -> "Streamlit" : dialog context
+"Streamlit" -> "OpenAI" : prompt LLM
+activate OpenAI #LightGreen
+"OpenAI" --> "Streamlit" : LLM response
+deactivate OpenAI
+"Streamlit" --> User : generated dialogs
+Note over User : If the user want to generate\nan audio file from the dialog
+User -> "Streamlit" : TTS request
+Streamlit -> "Streamlit" : separate dialog into sentences 
+"Streamlit" -> "OpenAI" : generate TTS per sentence
+activate OpenAI #LightGreen
+"OpenAI" --> "Streamlit" : TTS response
+deactivate OpenAI
+"Streamlit" --> User : Audio file
+deactivate Streamlit
+deactivate User
+@enduml

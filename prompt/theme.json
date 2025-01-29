@@ -1,0 +1,102 @@
+[
+    {
+        "name": "presentation",
+        "description": "key words to introduce yourself"
+    },
+    {
+        "name": "counting",
+        "description": "sentences with numbers"
+    },
+    {
+        "name": "food 1",
+        "description": "words of food"
+    },
+    {
+        "name": "food 2",
+        "description": "key words and sentences to order at the restaurant"
+    },
+    {
+        "name": "family",
+        "description": "words and sentences to present your family"
+    },
+    {
+	    "name": "description",
+	    "description": "words and sentences to describe a person"
+    },
+    {
+	    "name": "body part",
+	    "description": "key words and sentences about the body part"
+    },
+    {
+ 	    "name": "weather",
+        "description": "key words and sentences about the weather"
+    },
+    {
+        "name": "health 1",
+        "description": "key words and sentences about health & diseases"
+    },
+    {
+	    "name": "health 2",
+	    "description": "key words and sentences at the doctor"
+    },
+    {
+	    "name": "health 3",
+	    "description": "key words and sentences at the pharmacy"
+    },
+    {
+	    "name": "make an appointment",
+	    "description": "key words and sentences to make an appointment"
+    },
+    {
+	    "name": "routine",
+	    "description": "key words and sentences to talk about your routine"
+    },
+    {
+        "name": "sports 1",
+        "description": "sports and physical activities"
+    },
+    { 
+	    "name": "sports 2",
+        "description": "fitness & wellbeing"
+    },
+    { 
+	    "name": "housing 1",
+        "description": "words about housing"
+    },
+    {
+	    "name": "housing 2",
+        "description": "key words and sentences about housing"
+    },
+    {
+	    "name": "clothes",
+        "description": "words of clothes"
+    },
+    {
+	    "name": "shopping",
+        "description": "key words and sentences for shopping"
+    },
+    {
+        "name": "travel",
+        "description": "key words and sentences for travelling and vacations"
+    },
+    {
+        "name": "going out",
+        "description": "key words and sentences to go out"
+    },
+    {
+	    "name": "hobbies",
+        "description": "key words and sentences for hobbies"
+    },
+    {
+        "name": "animals",
+        "description": "animals and pets"
+    },
+    {
+        "name": "art",
+        "description": "art and creativity"
+    },
+    {
+        "name": "custom",
+        "description": ""
+    }
+]

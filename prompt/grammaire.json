@@ -1,0 +1,54 @@
+[
+    {
+        "name": "phonetics",
+        "description": "Use words related to hard phonetics and pronunciation"
+    },
+    {
+        "name": "articles",
+        "description": "Use indefinite, definite, and partitive articles, like 'un', 'une', 'le', 'la', 'les', 'du', 'de la', 'des'"
+    },
+    {
+        "name": "personal pronouns subject",
+        "description": "Use personal pronouns in sentences, like 'je', 'tu', 'il', 'elle', 'nous', 'vous', 'ils', 'elles'"
+    },
+    {
+        "name": "personal pronouns (on)",
+        "description": "Use the impersonal pronoun 'on' in sentences"
+    },
+    {
+        "name": "possessive adjectives",
+        "description": "Use possessive adjectives in sentences, like 'mon', 'ma', 'mes', 'ton', 'ta', 'tes', 'son', 'sa', 'ses', 'notre', 'votre', 'leur'"
+    },
+    {
+        "name": "demonstrative adjectives",
+        "description": "Use demonstrative adjectives in sentences, like 'ce', 'cet', 'cette', 'ces'"
+    },
+    {
+        "name": "first group verbs",
+        "description": "Use verbs of the first group"
+    },
+    {
+        "name": "second group verbs",
+        "description": "Use verbs of the second group"
+    },
+    {
+        "name": "third group verbs",
+        "description": "Use verbs of the third group"
+    },
+    {
+        "name": "pronominal verbes",
+        "description": "Use pronominal in sentences, like 'se réveiller', 'se laver', 'se préparer'"
+    },
+    {
+        "name": "negations",
+        "description": "Use negation in sentences, like 'ne pas', 'ne plus' 'ne jamais'"
+    },
+    {
+        "name": "adverbs of frequency",
+        "description": "Use adverbs of frequency, like 'often', 'sometimes' 'from time to time'"
+    },
+    {
+ 	    "name": "custom",
+        "description": ""
+    }
+]
